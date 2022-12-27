@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html> 
+
+    <head>
+
+        <title> Math Quiz </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images.png" />
+    </head>
+
+    <body> 
+
+        <h1 style="color: white; margin-top: 2px;">Welcome!</h1>
+        <h4 style="color: white; margin-top: -35px;"> Please Login to start the game! </h4>    
+        <br>
+    
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div1" style=" width: 400px; height: 430px;" > 
+       
+            <br>
+            <h2> Player 1 login for the game!</h2>
+            <br>
+			<label> Username </label>
+            <br>
+			<input type="text" id="player1_name_input" class="form-control" placeholder="Enter Player 1 Username">
+            <br>
+            <br>
+            <label> Name </label>
+            <br>
+            <input type="text" class="form-control" placeholder="Enter Player 1 Name">
+       
+        </div>
+
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div2" style="width: 400px; height: 430px;" > 
+           
+            <br>
+            <h2> Player 2 login for the game!</h2>
+            <br>
+			<label> Username </label>
+            <br>
+            <input type="text" id="player2_name_input" class="form-control" placeholder="Enter Player 2 Username">
+            <br>
+            <br>
+            <label> Name </label>
+            <br>
+			<input type="text" class="form-control" placeholder="Enter Player 2 Name">      
+       
+        </div>
+
+        <button class="btn-primary" id="btn" onclick="login();">LOGIN</button>
+
+    </body>
+
+</html>
